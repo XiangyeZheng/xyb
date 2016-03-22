@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C074E3A01CA0E50D00F22660 /* XYNews.m in Sources */ = {isa = PBXBuildFile; fileRef = C074E39F1CA0E50D00F22660 /* XYNews.m */; };
 		C0D368531C9B91EE009F8586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D368521C9B91EE009F8586 /* main.m */; };
 		C0D368561C9B91EE009F8586 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D368551C9B91EE009F8586 /* AppDelegate.m */; };
 		C0D368591C9B91EE009F8586 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D368581C9B91EE009F8586 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C074E39E1CA0E50D00F22660 /* XYNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNews.h; sourceTree = "<group>"; };
+		C074E39F1CA0E50D00F22660 /* XYNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNews.m; sourceTree = "<group>"; };
 		C0D3684E1C9B91ED009F8586 /* TestJSLocalStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJSLocalStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D368521C9B91EE009F8586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0D368541C9B91EE009F8586 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				C0D3685F1C9B91EE009F8586 /* LaunchScreen.storyboard */,
 				C0D368621C9B91EE009F8586 /* Info.plist */,
 				C0D368511C9B91EE009F8586 /* Supporting Files */,
+				C074E39E1CA0E50D00F22660 /* XYNews.h */,
+				C074E39F1CA0E50D00F22660 /* XYNews.m */,
 			);
 			path = TestJSLocalStorage;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D368591C9B91EE009F8586 /* ViewController.m in Sources */,
+				C074E3A01CA0E50D00F22660 /* XYNews.m in Sources */,
 				C0D368561C9B91EE009F8586 /* AppDelegate.m in Sources */,
 				C0D368531C9B91EE009F8586 /* main.m in Sources */,
 			);
@@ -298,6 +304,7 @@
 				C0D368671C9B91EE009F8586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
